@@ -1,0 +1,46 @@
+body{
+    margin:0;
+}
+.carousel{
+    height:600px;
+}
+.carousel-inner{
+    background-color: #333;
+}
+.carousel img{
+    object-fit: cover;
+    height: 600px;
+}
+.carousel-caption p{
+    font-size: 3rem;
+    text-shadow: 4px 4px 4px #333;
+}
+.carousel-caption h5{
+    font-size: 6rem;
+    text-shadow: 4px 4px 4px #333;
+}
+.heading{
+    text-align: center;
+    margin: auto;
+    width: 80vw;
+    background-color: rgb(247, 239, 221);
+    padding: 2rem 1rem;
+    border: 2px solid black;
+}
+.options-container>div{
+    padding: 1rem 2rem;
+    margin: 10px;
+}
+
+.options-container>div>label{
+    cursor: pointer;
+}
+.correct{
+    background-color: green;
+}
+.wrong{
+    background-color: red;
+}
+.selected{
+    background-color: aqua;
+}
